@@ -183,11 +183,11 @@
 
     var intervalContent;
     var intervalTitle;
-    $("#btn__letter").on("click", function () {
-        $(".box__letter").slideDown()
-        setTimeout(function () {
-            $(".letter__border").slideDown();
-        }, 1000)
+    setTimeout(function() {
+    $(".box__letter").slideDown()
+    setTimeout(function () {
+        $(".letter__border").slideDown();
+    }, 1000)
         setTimeout(function () {
             intervalTitle = setInterval(function () {
                 if (currentIndexTitle < charArrTitle.length) {
